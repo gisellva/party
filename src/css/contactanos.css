@@ -1,0 +1,58 @@
+.container-contactanos{
+   
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    border-radius: 5rem;
+   place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+    
+}
+.botonwhatsapptext{
+    
+    color:darkmagenta;
+ text-decoration: none;
+ border:10px;
+
+}
+.botonwhatsapptext:hover{
+    
+  color: #fff;
+  
+ 
+}
+.botonwhatsapp{
+    background-color: rgb(255, 254, 255);
+    width: 9rem;
+    height: 4rem;
+    border-radius: 11px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:darkmagenta
+}
+.botonwhatsapp:hover{
+    transform: scale(1.1);
+  
+  background-color: rgb(204, 127, 255);
+  color: #fff;
+}
+.container-formulario{
+    color: #fff;
+    height : 45rem;
+    background-color: darkmagenta;
+    margin-top: 4rem;
+    border-radius: 30px;
+}
+.container-parrafo{
+    background-color: #fff;
+    height:25rem;
+    background-color: darkmagenta;
+    margin-top: 4rem;
+    color: #fff;
+    border-radius: 30px;
+   
+}

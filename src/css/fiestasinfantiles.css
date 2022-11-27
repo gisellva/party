@@ -1,0 +1,29 @@
+.imgen-fondo{
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 30rem;
+    background-image: url("https://images.pexels.com/photos/2399097/pexels-photo-2399097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.titulos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.nav{
+    background-color: darkmagenta;
+    
+}
+.nustros-trabajos{
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}

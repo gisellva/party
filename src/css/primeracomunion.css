@@ -1,0 +1,8 @@
+.imgen-fondo-primeracomunion{
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    height: 30rem;
+    background-image: url("https://images.pexels.com/photos/6782775/pexels-photo-6782775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}

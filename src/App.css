@@ -1,38 +1,268 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  color: darkmagenta;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  
+}
+.nav{
+    background-color: darkmagenta;
+    
+}
+.navegator{
+  z-index: 2;
+  height: 6rem;
+
+}
+.navigatorcontainer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navc{
+  background-color: darkmagenta;
+  z-index: 2;
+  height: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.c{
+  z-index: 2;
+  background-color: #fff;
+}
+.footerpage{
+  background-color: darkmagenta;
+ height: 10rem;
+}
+.footerpagediv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1rem;
+}
+.footerpagepa{
+ display: grid;
+padding: 2rem;
+grid-column: 1 / span 3;
+}
+.footerpage{
+  color:rgb(255, 255, 255);
+  
+}
+.footera{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+.footera:hover{
+  color:rgb(252, 201, 252);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.naviprincipal{
+  display: flex;
+ justify-content:end;
+}
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: .85;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+  
+}
+
+.hederContactanos {
+  border:   1px solid rgb(255, 255, 255);
+ text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+ color: #fff;
+ 
+  
+}
+.hederContactanos:hover{
+  color: #fff;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
   }
 }
+button{
+  border: none;
+  color:#fff;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+.botones{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+    
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.b-1{
+  background-color: rgba(118, 195, 240, 0.541);
+  width: 16rem;
+  height: 16rem;
+  border-radius: 20px;
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: 7px solid  rgb(118, 195, 240);
+}
+.b-1:hover{
+   transform: scale(1.1);
+   box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.404);
+   background-color: rgb(118, 195, 240);
 }
 
-.App-link {
-  color: #61dafb;
+.b-2{
+  background-color: rgba(204, 127, 255, 0.541);
+  width: 16rem;
+  height: 16rem;
+  border-radius: 20px;
+  font-size: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid rgb(204, 127, 255);
+}
+.b-2:hover:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.404);
+  background-color: rgb(204, 127, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b-3{
+  background-color: rgba(245, 230, 98, 0.541);
+  width: 16rem;
+  height: 16rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid  rgb(245, 230, 98);
+
+}
+.b-3:hover:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.39);
+  background-color: rgb(245, 230, 98);
+}
+.b-4{
+  background-color: rgba(241, 114, 213, 0.541);
+  width: 16rem;
+  height: 16rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid   rgb(241, 114, 214);
+
+}
+.b-4:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.404);
+  background-color: rgb(241, 114, 214);
+}
+.nuestroservicios{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: -20px;
+}
+.sobrenosotros{
+  
+  margin-top: 2rem;
+}
+.parrafosobrenosotros{
+  font-family: 'Oswald', sans-serif;
+ 
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  
+}
+.carrusel{
+  margin-top: 3rem;
+ 
+}
+.carruseltitilo{
+  color: darkmagenta;
+  font-family: 'Oswald', sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 white;
+}
+.carruselparrafo{
+  font-size: 2rem;
+  color:rgb(255, 255, 255);
+}
+.parrafodescripcionsobrenosotros{
+  margin-bottom: 2.5rem;
+}
+.carruselparrafoglobos{
+  font-size: 2rem;
+  color:darkmagenta;
+  
 }
